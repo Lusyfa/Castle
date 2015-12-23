@@ -24,7 +24,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"学生信息";
-    
+    NSLog(@"呵呵");
     
     UIBarButtonItem * right = [[UIBarButtonItem alloc]initWithTitle:@"添加" style:(UIBarButtonItemStylePlain) target:self action:@selector(right)];
     self.navigationItem.rightBarButtonItem = right;
